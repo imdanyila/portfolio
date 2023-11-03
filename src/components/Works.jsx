@@ -35,6 +35,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               />
             </div>
           </div>
+          
         </div>
 
         <div className='mt-5'>
