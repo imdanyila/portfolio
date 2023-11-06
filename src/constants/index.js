@@ -3,10 +3,8 @@ import {
     backend,
     creator,
     web,
-
     bestbuy,
     ace,
-    
     javascript,
     typescript,
     html,
@@ -18,7 +16,6 @@ import {
     threejs,
     git,
     figma,
-
     dishdex,
     sudoku,
     portfolio,
