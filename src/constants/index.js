@@ -113,9 +113,9 @@ import {
       iconBg: "white",
       date: "August 2022 - Present",
       points: [
-        "Providing exceptional support, addressing inquiries, resolving technical issues, and making product recommendations, leading to consistently high customer satisfaction.",
-        "Demonstrating expertise in consumer electronics, computer hardware, and software, effectively troubleshooting and educating customers on the latest technology trends.",
-        "Contributing actively to team success, participating in training sessions, sharing product knowledge, and fostering a positive work environment.",
+        "Provide exceptional support, address inquiries, resolve technical issues, and make product recommendations, which leads to consistently high customer satisfaction.",
+        "Demonstrate expertise in consumer electronics, computer hardware, and software, effectively troubleshooting and educating customers on the latest technology trends.",
+        "Contribute actively to team success, participate in training sessions, share product knowledge, and foster a positive work environment.",
       ],
     },
     {
@@ -125,9 +125,9 @@ import {
       iconBg: "white",
       date: "October 2023 - Present",
       points: [
-        "Collaborating with a team of fellow developers to design, code, and maintain the organization's website, ensuring a user-friendly and visually appealing online presence.",
-        "Improving the website's user interface by implementing modern design principles and responsive web design techniques, resulting in enhanced user engagement and accessibility.",
-        "Working closely with team members to identify and address technical challenges, debug code, and implement new features, fostering a collaborative and innovative development environment.",
+        "Collaborate with a team of fellow developers to design, code, and maintain the organization's website, ensuring a user-friendly and visually appealing online presence.",
+        "Improve the website's user interface by implementing modern design principles and responsive web design techniques, resulting in enhanced user engagement and accessibility.",
+        "Work closely with team members to identify and address technical challenges, debug code, and implement new features, while fostering a collaborative and innovative development environment.",
       ],
     },
   ];
@@ -157,7 +157,7 @@ import {
     {
       name: "Sudoku",
       description:
-        "Created a Python program using Pygame that generates Sudoku boards based on selected user difficulty and offers feedback on solutions with win and lose conditions.",
+        "Created a Python program, using Pygame, which generates Sudoku boards based on the selected user difficulty, offers an AI generated solution, and win and lose screens.",
       tags: [
         {
           name: "python",
@@ -174,7 +174,7 @@ import {
     {
       name: "3D Portfolio Website",
       description:
-        "Created an online portfolio showcasing my coding projects. Not only does it demonstrates my web development skills but it also incorporates 3D modeling.",
+        "Created an online portfolio showcasing my coding projects. Not only does it demonstrate my web development skills, but it also incorporates 3D modeling.",
       tags: [
         {
           name: "react",

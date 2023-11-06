@@ -72,8 +72,8 @@ const Works = () => {
       >
         Explore a collection of my latest coding projects, 
         each with a GitHub link for in-depth access and collaboration. 
-        From web applications to software solutions, 
-        this showcase is a testament to my passion for coding and innovation. 
+        From web applications to programs, 
+        this portfolio is a testament to my passion for coding and innovation. 
         Dive in to see the code in action and discover the skills and creativity behind each project. 
         Whether you're a fellow developer or simply curious about what's possible with code, 
         you're in the right place to explore, learn, and be inspired.

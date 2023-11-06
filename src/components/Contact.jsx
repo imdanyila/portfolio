@@ -56,7 +56,7 @@ const Contact = () => {
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75]  p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -64,42 +64,58 @@ const Contact = () => {
         <form
         ref={formRef}
         onSubmit={handleSubmit}
-        className='mt-12 flex flex-col gap-8'
+        className='mt-12 flex flex-col gap-10'
         >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+          <label class="flex flex-col relative group">
             <input 
-              type='text'
-              name='name'
+              type="text" 
+              name="name" required 
               value={form.name}
               onChange={handleChange}
-              // placeholder='Your Name'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              class="bg-tertiary py-4 px-6 text-white rounded-lg outline-none border-none font-medium peer" 
             />
+            <span 
+              for="name" 
+              class="text-white font-medium mb-4 cursor-text
+              transform transition-all absolute top-0 left-2 h-full flex items-center pl-2
+              group-focus-within:h-1/2 peer-valid:h-1/2 group-focus-within:cursor-default peer-valid:cursor-default
+              group-focus-within:-translate-y-full peer-valid:-translate-y-full group-focus-within:pl-0 peer-valid:pl-0"
+              >Your Name</span>
           </label>
 
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Email</span>
+          <label class="flex flex-col relative group">
             <input 
-              type='email'
-              name='email'
+              type="text" 
+              name="email" required 
               value={form.email}
               onChange={handleChange}
-              // placeholder='Your Email'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              class="bg-tertiary py-4 px-6 text-white rounded-lg outline-none border-none font-medium peer" 
             />
+            <span 
+              for="email" 
+              class="text-white font-medium mb-4 cursor-text
+              transform transition-all absolute top-0 left-2 h-full flex items-center pl-2
+              group-focus-within:h-1/2 peer-valid:h-1/2 group-focus-within:cursor-default peer-valid:cursor-default
+              group-focus-within:-translate-y-full peer-valid:-translate-y-full group-focus-within:pl-0 peer-valid:pl-0"
+              >Your Email</span>
           </label>
 
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea 
-              row='7'
+          <label class="flex flex-col relative group">
+          <textarea 
+              rows='5'
               name='message'
-              value={form.message}
+              id='message'
+              value={form.message} required
               onChange={handleChange}
-              // placeholder='Your Message'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              class="bg-tertiary py-4 px-6 text-white rounded-lg outline-none border-none font-medium peer" 
             />
+            <span 
+              for="message" 
+              class="text-white font-medium mb-4 cursor-text
+              transform transition-all absolute top-0 left-2 h-full flex items-center pl-2
+              group-focus-within:h-[30px] peer-valid:h-[30px] group-focus-within:cursor-default peer-valid:cursor-default
+              group-focus-within:-translate-y-full peer-valid:-translate-y-full group-focus-within:pl-0 peer-valid:pl-0"
+              >Your Message</span>
           </label>
 
           <button
@@ -113,7 +129,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-[650px] md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
       </motion.div>
